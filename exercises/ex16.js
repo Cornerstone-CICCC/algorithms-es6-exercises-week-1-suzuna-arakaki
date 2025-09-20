@@ -44,25 +44,3 @@ function buildTriangle(length) {
   return triangle;
 }
 console.log(buildTriangle(10));
-
-
-// for (let row = 0; row <= 25; row++){
-//     for (let seat = 0; seat <= 99; seat++){
-//         console.log(`row: ${row} - seat: ${seat}`);
-//     }
-// }
-
-
-// function buildTriangle(callbackNum){
-//   let triangle = "";
-//   for (let i = 1; i <= callbackNum; i++){
-//     triangle += callbackNum(i);
-//   }
-//   return triangle;
-// }
-// console.log (buildTriangle(10));
-
-
-//   return makeLine(length);
-// }
-// console.log(buildTriangle(10));
