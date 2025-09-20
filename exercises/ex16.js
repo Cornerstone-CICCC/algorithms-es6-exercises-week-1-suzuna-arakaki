@@ -35,3 +35,10 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+
+function buildTriangle(callback){
+
+  return makeLine(length);
+}
+
+console.log(buildTriangle(10));
