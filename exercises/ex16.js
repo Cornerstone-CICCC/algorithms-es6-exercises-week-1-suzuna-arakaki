@@ -37,7 +37,7 @@ function makeLine(length) {
 }
 function buildTriangle(length) {
   let triangle = "";
-  for (i = 1; i <= length; i++){
+  for (let i = 1; i <= length; i++){
     let aLine = makeLine(i); // call makeLine function here. Amount of asterisks for this line.
     triangle += aLine;
   }
